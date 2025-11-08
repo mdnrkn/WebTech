@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LabTask_3.css">
+</head>
+<body>
+    <div class="info">
+        <p class="p1">
+        <span class="star">*</span>
+        <span> - Denotes Required Information</span>
+        </p>
+
+        <span class="top-text">
+            <span class="top-text-1">> 1 Donation</span>
+            <span class="top-text-2">> 2 Confirmation</span>
+            <span class="top-text-3">> 3 Thank You!</span>
+        </span>
+
+        <div>
+            <h3 class="donor-info-heading">Donor Information</h3>
+            <div class="donor-info">
+                <!-- First Name -->
+                <label for="first-name" class="bold-text">First Name</label>
+                <span class="star">*</span>
+                <input type="text" name="first-name" id="first-name" class="donor-info-input-first-name" required>
+                <br>
+                
+                <!-- Last Name -->
+                <label for="last-name" class="bold-text">Last Name</label>
+                <span class="star">*</span>
+                <input type="text" name="last-name" id="last-name" class="donor-info-input-last-name" required>
+                <br>
+                
+                <!-- Company -->
+                <label for="company" class="bold-text">Company</label>
+                <input type="text" name="company" id="company" class="donor-info-input-company">
+                <br>
+                
+                <!-- Address 1 -->
+                <label for="address-1" class="bold-text">Address 1</label>
+                <span class="star">*</span>
+                <input type="text" name="address-1" id="address-1" class="donor-info-input-address-1" required>
+                <br>
+                
+                <!-- Address 2 -->
+                <label for="address-2" class="bold-text">Address 2</label>
+                <input type="text" name="address-2" id="address-2" class="donor-info-input-address-2">
+                <br>
+                
+                <!-- City -->
+                <label for="city" class="bold-text">City</label>
+                <span class="star">*</span>
+                <input type="text" name="city" id="city" class="donor-info-input-city" required>
+                <br>
+                
+                <!-- State -->
+                <label for="state" class="bold-text">State</label>
+                <span class="star">*</span>
+                <select name="state" id="state" class="donor-info-input-state" required>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="California">California</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Maryland">Maryland</option>
+                </select>
+                <br>
+                
+                <!-- Zip Code -->
+                <label for="zip-code" class="bold-text">Zip Code</label>
+                <span class="star">*</span>
+                <input type="text" name="zip-code" id="zip-code" class="donor-info-input-zip-code" required>
+                <br>
+                
+                <!-- Country -->
+                <label for="country" class="bold-text">Country</label>
+                <span class="star">*</span>
+                <select name="country" id="country" class="donor-info-input-country" required>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Russia">Russia</option>
+                </select>
+                <br>
+                
+                <!-- Phone -->
+                <label for="phone" class="bold-text">Phone</label>
+                <input type="text" name="phone" id="phone" class="donor-info-input-phone">
+                <br>
+                
+                <!-- Fax -->
+                <label for="fax" class="bold-text">Fax</label>
+                <input type="text" name="fax" id="fax" class="donor-info-input-fax">
+                <br>
+                
+                <!-- Email -->
+                <label for="email" class="bold-text">Email</label>
+                <span class="star">*</span>
+                <input type="text" name="email" id="email" class="donor-info-input-email" required>
+                <br>
+
+                <!-- Donation Amount -->
+                <label for="donation-amount" class="donor-info-input-donation-amount">Donation Amount</label>
+                <span class="star">*</span>
+                    <div class="amount-option">
+                        <!-- none -->
+                        <input type="radio" name="none" id="none">
+                        <label for="none">None</label>
+                        <!-- 50 -->
+                        <input type="radio" name="50" id="50">
+                        <label for="50">$50</label>
+                        <!-- 75 -->
+                        <input type="radio" name="75" id="75">
+                        <label for="75">$75</label>
+                        <!-- 100 -->
+                        <input type="radio" name="100" id="100">
+                        <label for="100">$100</label>
+                        <!-- 250 -->
+                        <input type="radio" name="250" id="250">
+                        <label for="250">$250</label>
+                        <!-- Other -->
+                        <input type="radio" name="other" id="other">
+                        <label for="other">Other</label>
+                    </div>
+                <br>
+
+                <!-- Other Amount -->
+                <label for="other-amount" class="donor-info-input-other-amount" >Other Amount $</label>
+                <input type="text" name="other-amount" id="other-amount">
+                <br>
+
+                <!-- Recurring Donation -->
+                <label for="recurring-donation" class="bold-text">Recurring Donation</label>
+                <input type="checkbox" name="recurring-donation" id="recurring-donation">
+                <label for="interested">I am interested in giving on a regular basis.</label>
+                <br>
+                <div class="cc">
+                    <span>Monthly Credit Card $</span>
+                    <input type="text" name="cc" id="cc" class="cc-box">
+                    <span>For</span>
+                    <input type="text" name="cc" id="cc" class="cc-box">
+                    <span>Months</span>
+                </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="honorarium-memorial-heading">Honorarium and Memorial Donation Information</h3>
+
+                <div class="donation-info">
+                    <!-- Donation -->
+                    <label for="doantion" class="bold-text">I would like to make this donation</label>
+
+                    <div class="donation-option">
+                        <input type="radio" name="honor" id="honor">
+                        <label for="honor">To Honor</label>
+                        <br>
+                        <input type="radio" name="memory" id="memory">
+                        <label for="memory">In Memory of</label>
+                    </div>
+
+                    <br>
+
+                    <!-- Name -->
+                    <label for="name" class="bold-text">Name</label>
+                    <input type="text" name="name" id="name" class="donation-info-input-name">
+                    <br>
+
+                    <!-- Acknowledge -->
+                    <label for="acknowledge" class="bold-text">Acknowledge Donation to</label>
+                    <input type="text" name="acknowledge" id="acknowledge" class="donation-info-input-acknowledge">
+                    <br>
+                            
+                    <!-- Address -->
+                    <label for="address" class="bold-text">Address</label>
+                    <input type="text" name="address" id="address" class="donation-info-input-address">
+                    <br>
+                    
+                    <!-- City -->
+                    <label for="city" class="bold-text">City</label>
+                    <input type="text" name="city" id="city" class="donation-info-input-city">
+                    <br>
+                    
+                    <!-- State -->
+                    <label for="state" class="bold-text">State</label>
+                    <select name="state" id="state" class="donation-info-input-state">
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="California">California</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Maryland">Maryland</option>
+                    </select>
+                    <br>
+                    
+                    <!-- Zip -->
+                    <label for="zip" class="bold-text">Zip</label>
+                    <input type="text" name="zip" id="zip" class="donation-info-input-zip">
+                    <br>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="additional-info-heading">Additional Information</h3>
+                <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+                
+                <!-- name -->
+                <label for="name" class="additional-info-name">Name</label>
+                <input type="text" name="name" id="name" class="additional-info-input-name">
+                <br>
+
+                <input type="checkbox">I would like my gift to remain anonymous.
+                <br>
+                <input type="checkbox">My employer offers a matching gift program. I will mail the matching gift form.
+                <br>
+                <input type="checkbox">Please save the cost of acknowledging this gift by not mailing a thank you letter.
+                <br>
+
+                <!-- comments -->
+                <label for="comments" class="additional-info-comments">Comments</label>
+                <input type="text" name="comments" id="comments" class="additional-info-input-comments">
+                <br>
+
+                <!-- contact -->
+                <label for="conatct" class="contact">How may we contact you?</label>
+                
+                <div class="contact-options">
+                    <input type="checkbox">
+                    <span>Email</span>
+                    <br>
+                    <input type="checkbox">
+                    <span>Postal Mail</span>
+                    <br>
+                    <input type="checkbox">
+                    <span>Telephone</span>
+                    <br>
+                    <input type="checkbox">
+                    <span>Fax</span>
+                </div>
+
+                <p class="newsletters-text">I would like to receive newsletters and information about special events by:</p>
+                
+                <div class="newsletters-options">
+                    <input type="checkbox">
+                    <span>E-mail</span>
+                    <br>
+                    <input type="checkbox">
+                    <span>Poster Mail</span>
+                </div>
+
+                <input type="checkbox">I would like information about volunteering with the authority.
+
+                <br>
+
+                <div class="buttons">
+                    <button>Reset</button>
+                    <button>Continue</button>
+                </div>
+
+                <p>Donate online with confidence. You are on a secure server.</p>
+                <p>If you have any problems or questions, please contact <a href="#">support</a>.</p>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

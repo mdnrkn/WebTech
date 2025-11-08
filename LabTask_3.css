@@ -1,0 +1,232 @@
+body {
+    padding-left: 25%;
+    font-family: Verdana;
+    font-size: 1em;
+}
+
+.info {
+    padding-top: 5px;
+    padding-left: 20px;
+    background: #e8e7e7;
+    width: 850px;
+}
+
+.star {
+    color: red;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.top-text {
+    margin-right: 20px;
+}
+
+.top-text-1 {
+    font-weight: bold;
+}
+
+.top-text-1, 
+.top-text-2, 
+.top-text-3 {
+    margin-right: 20px;
+}
+
+/* Donor Info */
+
+.donor-info-heading {
+    color: red;
+}
+
+.donor-info {
+    padding-left: 100px;
+}
+
+.donor-info-input-first-name {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.donor-info-input-last-name {
+    margin-left: 13px;
+    margin-bottom: 5px;
+}
+
+.donor-info-input-company {
+    margin-left: 41px;   
+    margin-bottom: 5px;
+}
+
+.donor-info-input-address-1 {
+    margin-left: 19px; 
+    margin-bottom: 5px;  
+}
+
+.donor-info-input-address-2 {
+    margin-left: 35px; 
+    margin-bottom: 5px;  
+}
+
+.donor-info-input-city {
+    margin-left: 73px;
+    margin-bottom: 5px;   
+}
+
+.donor-info-input-state {
+    margin-left: 60px;
+    margin-bottom: 5px;   
+}
+
+.donor-info-input-zip-code {
+    margin-left: 30px;
+    margin-bottom: 5px;   
+}
+
+.donor-info-input-country {
+    margin-left: 36px;
+    margin-bottom: 5px;   
+}
+
+.donor-info-input-phone {
+    margin-left: 68px;
+    margin-bottom: 5px; 
+}
+
+.donor-info-input-fax {
+    margin-left: 92px;
+    margin-bottom: 5px;
+}
+
+.donor-info-input-email {
+    margin-left: 59px;
+    margin-bottom: 5px;    
+}
+
+.donor-info-input-donation-amount {
+    font-weight: bold;    
+}
+
+.amount-option {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.donor-info-input-other-amount {
+    font-weight: bold;
+    margin-left: 184px;
+    margin-bottom: 5px; 
+}
+
+.cc {
+    margin-top: 5px; 
+    margin-left: 185px;
+}
+
+.cc-box {
+    width: 50px;
+}
+
+/* honorarium-memorial */
+
+.honorarium-memorial-heading {
+    color: red;
+}
+
+.donation-info {
+    padding-left: 100px;
+}
+
+.donation-option {
+    position: relative;
+    padding-left: 310px;
+    top: -17px;
+}
+
+.donation-info-input-name {
+    margin-left: 178px;
+    margin-bottom: 5px;
+}
+
+.donation-info-input-acknowledge {
+    margin-bottom: 5px;
+}
+
+.donation-info-input-address {
+    margin-left: 158px;
+    margin-bottom: 5px;
+}
+
+.donation-info-input-city {
+    margin-left: 196px;
+    margin-bottom: 5px;
+}
+
+.donation-info-input-state {
+    margin-left: 183px;
+    margin-bottom: 5px;
+}
+
+.donation-info-input-zip {
+    margin-left: 202px;
+    margin-bottom: 5px;
+}
+
+/* additional-info */
+
+.additional-info-heading {
+    color: red;
+}
+
+.additional-info-name {
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.additional-info-input-name {
+    margin-left: 180px;
+    margin-bottom: 5px;
+}
+
+.additional-info-comments {
+    position: relative;
+    top: -40px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.additional-info-input-comments {
+    margin-left: 138px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 250px;
+    height: 100px;
+}
+
+.contact {
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.contact-options {
+    position: relative;
+    top: -15px;
+    margin-left: 340px;
+}
+
+.newsletters-text {
+    position: relative;
+    top: -10px;
+    margin: 0;
+}
+
+.newsletters-options {
+    position: relative;
+    top: -5px;
+    margin-left: 340px;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-left: 300px;
+}
