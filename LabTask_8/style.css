@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+
+.section {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid black;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    width: 20%;
+    background-color: #f0d7a8;
+}
+
+#main {
+    width: 57%;
+    background-color: #b97171;
+}
+
+#ads {
+    width: 20%;
+    background-color: #79be8c;
+}
