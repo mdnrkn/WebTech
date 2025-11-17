@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Form</title>
+</head>
+<body>
+    <h2>University Admission Form</h2>
+
+    <form action="/register" method="POST">
+
+        <!-- Personal Info -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="first-name">First Name :</label> <br>
+            <input type="text" name="first-name" id="first-name" maxlength="30" required>
+            <br><br>
+            
+            <label for="last-name">Last Name :</label> <br>
+            <input type="text" name="last-name" id="last-name" maxlength="30" required>
+            <br><br>
+
+            <label for="email">Email :</label> <br>
+            <input type="text" name="email" id="email" maxlength="30" required>
+            <br><br>
+            
+            <label for="dob">Date of Birth :</label> <br>
+            <input type="date" name="dob" id="dob" required>
+            <br><br>
+
+            <label for="gender">Gender :</label> <br>
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female">
+            <label for="female">Female</label>
+            <br>
+        </fieldset>
+
+        <br>
+
+        <!-- Academic Info -->
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="school">School :</label> <br>
+            <input type="text" name="school" id="school" maxlength="30" required>
+            <br><br>
+
+            <label for="ssc">SSC GPA :</label> <br>
+            <input type="text" name="ssc" id="ssc" maxlength="4" required>
+            <br><br>
+
+            <label for="college">College :</label> <br>
+            <input type="text" name="college" id="college" maxlength="30" required>
+            <br><br>
+
+            <label for="hsc">HSC GPA:</label> <br>
+            <input type="text" name="hsc" id="hsc" maxlength="4" required>
+            <br><br>
+
+            <label for="dept">Preferred Department :</label> <br>
+            <select name="dept" id="dept" required>
+                <option value="">Select Department</option>
+                <option value="CSE">Computer Science & Engineering (CSE)</option>
+                <option value="EEE">Electrical & Electronic Engineering (EEE)</option>
+                <option value="BBA">Business Administration (BBA)</option>
+            </select>
+            <br>
+        </fieldset>
+
+        <br>
+
+        <!-- Documents Upload -->
+        <fieldset>
+            <legend>Documents Upload</legend>
+
+            <label for="photo">Upload Photo :</label> <br>
+            <input type="file" name="photo" id="photo" required>
+            <br><br>
+
+            <label for="ssc-transcript">Upload SSC Transcript :</label> <br>
+            <input type="file" name="ssc-transcript" id="ssc-transcript" required>
+            <br><br>
+
+            <label for="hsc-transcript">Upload HSC Transcript :</label> <br>
+            <input type="file" name="hsc-transcript" id="hsc-transcript" required>
+            <br>
+        </fieldset>
+
+        <br>
+
+        <!-- Buttons -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
