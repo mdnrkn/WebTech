@@ -1,0 +1,40 @@
+/* Student List styles */
+.student-list {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.student-item {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgray;
+}
+ 
+.highlight {
+    background-color: yellow;
+}
+ 
+/* Button styles */
+.btn-delete {
+    color: red;
+    cursor: pointer;
+}
+ 
+.btn-edit {
+    color: blue;
+    cursor: pointer;
+}
+ 
+/* Add a button style for changing the list style */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+}
+ 
+button:hover {
+    background-color: #add8e6;
+}
