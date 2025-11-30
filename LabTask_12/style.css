@@ -1,0 +1,25 @@
+.box {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #f7f7f7;
+    font-family: system-ui;
+}
+
+.visible-box {
+    overflow: visible;
+}
+
+.hidden-box {
+    overflow: hidden;
+}
+
+.scroll-box {
+    overflow: scroll;
+}
+
+.auto-box {
+    overflow: auto;
+}
